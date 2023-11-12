@@ -12,14 +12,26 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.thp.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_apartment"
+        android:name="com.thp.ui.apartment.ApartmentFragment"
+        android:label="@string/title_apartment"
+        tools:layout="@layout/fragment_apartment" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.thp.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_transport"
+        android:name="com.thp.ui.transport.TransportFragment"
+        android:label="@string/title_drive"
+        tools:layout="@layout/fragment_transport" />
+
+    <fragment
+        android:id="@+id/navigation_forum"
+        android:name="com.thp.ui.forum.ForumFragment"
+        android:label="@string/title_forum"
+        tools:layout="@layout/fragment_forum" />
+
+    <fragment
+        android:id="@+id/navigation_profil"
+        android:name="com.thp.ui.profil.ProfilFragment"
+        android:label="@string/title_profil"
+        tools:layout="@layout/fragment_profil" />
 </navigation>
